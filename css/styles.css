@@ -1,0 +1,115 @@
+@font-face{
+    font-family: ReemRegular;
+    src: url(../fonts/ReemKufi-Regular.ttf);
+}
+@font-face {
+    font-family: ReemBold;
+    src: url(../fonts/ReemKufi-Bold.ttf);
+    
+}
+@font-face {
+    font-family: ReemSemiBold;
+    src: url(../fonts/ReemKufi-SemiBold.ttf);
+    
+}
+@font-face {
+    font-family: Medium;
+    src: url(../fonts/ReemKufi-Medium.ttf);
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: #3a3a3a;
+    display: flex;
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 37px;
+    
+}
+
+.header-nav-button{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Regular;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    list-style: none;
+}
+.episode{
+    /* margin-right: 2.8125rem; */
+}
+.review{
+    /* margin-right: 2.6875rem; */
+}
+.blog{
+    /* margin-right: 2.75rem; */
+}
+
+.nav-buttons{
+    display: flex;
+    list-style: none;
+}
+
+.button-text-nav {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Regular;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2em;
+    list-style: none;
+}
+.header-logo{
+    font-family: Bold;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 142%;
+    color: #fff;
+}
+.header-login-button{
+    background-color: rgba(217, 217, 217, 0.2);
+    width: 114px;
+    height: 51px;
+    align-items: center;
+}
+.header-logsub{
+    display: flex;
+}
+.button-login{
+    width: 114px;
+    height: 51px;
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 167%;
+    color: #fff;
+    font-family: SemiBold;
+    margin-right: 12px;
+}
+.button-subscribe{
+    border: 1px solid #fff;
+    border-radius: 26px;
+    width: 131px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 167%;
+    color: #fff;
+    font-family: SemiBold;
+}
