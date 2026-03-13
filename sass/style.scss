@@ -62,7 +62,7 @@ $regular: ReemRegular;
     padding-top: 1px;
     background-image: url('../img/back.png');
     background-size: cover;
-    height: 989px;
+    height: 991px;
     
 }
 .header-nav-button{
@@ -210,7 +210,7 @@ $regular: ReemRegular;
     height: 171px;
     background-color: $white;
     display: flex;
-    margin-top: -64px;
+    margin-top: -66px;
     
 }
 
@@ -1339,6 +1339,11 @@ $regular: ReemRegular;
 }
 
 
+
+
+
+
+
 @media screen and (max-width: 390px) {
     .container {
         max-width: 360px;
@@ -1375,7 +1380,7 @@ $regular: ReemRegular;
         font-size: 14px;
     }
 
-    /* Первая секция */
+   
     .background {
         height: auto;
         padding-bottom: 100px;
@@ -1399,7 +1404,7 @@ $regular: ReemRegular;
         max-width: 338px;
     }
 
-    /* Плеер */
+
     .player-one-list {
         width: 100%;
         height: auto;
@@ -1431,7 +1436,7 @@ $regular: ReemRegular;
         margin-left: 20px;
     }
 
-    /* Вторая секция */
+
     .two-list-content {
         flex-direction: column;
         margin-top: 60px;
@@ -1489,7 +1494,7 @@ $regular: ReemRegular;
         margin-top: 20px;
     }
 
-    /* Третья секция */
+
     .three-list-header-all {
         flex-direction: column;
     }
@@ -1525,7 +1530,7 @@ $regular: ReemRegular;
         margin-top: 0;
     }
 
-    /* Четвертая секция */
+ 
     .four-list-cards {
         flex-direction: column;
         align-items: center;
@@ -1541,7 +1546,7 @@ $regular: ReemRegular;
         margin-right: 0;
     }
 
-    /* Пятая секция */
+
     .background-five-list {
         height: auto;
         padding-bottom: 60px;
@@ -1604,7 +1609,7 @@ $regular: ReemRegular;
         width: 90%;
     }
 
-    /* Седьмая секция */
+
     .form-gmail {
         width: 100%;
         height: auto;
@@ -1642,7 +1647,7 @@ $regular: ReemRegular;
         height: auto;
     }
 
-    /* Футер */
+
     .footer-background {
         height: auto;
         padding-bottom: 40px;
@@ -1704,21 +1709,3 @@ $regular: ReemRegular;
     }
 }
 
-/* Дополнительная адаптация для очень маленьких экранов */
-@media screen and (max-width: 360px) {
-    .container {
-        padding: 0 10px;
-    }
-
-    .text-heading {
-        font-size: 40px;
-    }
-
-    .header-two-osn-list {
-        font-size: 24px;
-    }
-
-    .btn-of-list-three {
-        font-size: 14px;
-    }
-}

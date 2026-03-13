@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: ReemRegular;
   src: url(../fonts/ReemKufi-Regular.ttf);
@@ -42,7 +41,7 @@
   padding-top: 1px;
   background-image: url("../img/back.png");
   background-size: cover;
-  height: 989px;
+  height: 991px;
 }
 
 .header-nav-button {
@@ -201,7 +200,7 @@
   height: 171px;
   background-color: #FFFFFF;
   display: flex;
-  margin-top: -64px;
+  margin-top: -66px;
 }
 
 .left-player-btn {
@@ -1343,7 +1342,6 @@
     height: 40px;
     font-size: 14px;
   }
-  /* Первая секция */
   .background {
     height: auto;
     padding-bottom: 100px;
@@ -1363,7 +1361,6 @@
     width: 100%;
     max-width: 338px;
   }
-  /* Плеер */
   .player-one-list {
     width: 100%;
     height: auto;
@@ -1389,7 +1386,6 @@
   .volume-level {
     margin-left: 20px;
   }
-  /* Вторая секция */
   .two-list-content {
     flex-direction: column;
     margin-top: 60px;
@@ -1436,7 +1432,6 @@
     margin-left: 0;
     margin-top: 20px;
   }
-  /* Третья секция */
   .three-list-header-all {
     flex-direction: column;
   }
@@ -1466,7 +1461,6 @@
   .two-stroke {
     margin-top: 0;
   }
-  /* Четвертая секция */
   .four-list-cards {
     flex-direction: column;
     align-items: center;
@@ -1479,7 +1473,6 @@
   .indent-card {
     margin-right: 0;
   }
-  /* Пятая секция */
   .background-five-list {
     height: auto;
     padding-bottom: 60px;
@@ -1530,7 +1523,6 @@
   .btn-subscribe {
     width: 90%;
   }
-  /* Седьмая секция */
   .form-gmail {
     width: 100%;
     height: auto;
@@ -1561,7 +1553,6 @@
     width: 100%;
     height: auto;
   }
-  /* Футер */
   .footer-background {
     height: auto;
     padding-bottom: 40px;
@@ -1609,20 +1600,5 @@
   }
   .list-footer-three {
     padding-right: 0;
-  }
-}
-/* Дополнительная адаптация для очень маленьких экранов */
-@media screen and (max-width: 360px) {
-  .container {
-    padding: 0 10px;
-  }
-  .text-heading {
-    font-size: 40px;
-  }
-  .header-two-osn-list {
-    font-size: 24px;
-  }
-  .btn-of-list-three {
-    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
