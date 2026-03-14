@@ -1319,6 +1319,14 @@
     max-width: 360px;
     padding: 0 15px;
   }
+  .timeline-one-page{
+    object-fit: contain;
+    width: 213px;
+  }
+
+  .control-card{
+    display: block;
+  }
   .header {
     flex-wrap: wrap;
     margin-top: 20px;
@@ -1337,6 +1345,8 @@
     height: 40px;
     font-size: 14px;
   }
+
+
   .button-subscribe {
     width: 100px;
     height: 40px;
@@ -1450,7 +1460,7 @@
     justify-content: center;
   }
   .card-podcast {
-    width: 100%;
+    width: 360px;
     max-width: 360px;
     margin-right: 0;
     margin-bottom: 20px;
@@ -1501,10 +1511,27 @@
   .line-six {
     margin-left: 0;
     justify-content: center;
+    display: flex;
   }
   .six-cards {
     flex-direction: column;
     align-items: center;
+  }
+  .line-six-list{
+    display: none;
+  }
+  .subheader-card-subscribe{
+    white-space: normal;
+    max-width: 300px;
+  }
+
+
+  .cube-blue{
+    display: none;
+  }
+  .header-text-six{
+    display: flex;
+    white-space: normal;
   }
   .card-list-six {
     width: 100%;
